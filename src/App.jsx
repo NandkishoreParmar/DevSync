@@ -1,17 +1,13 @@
-import { useState } from 'react'
-import './App.css'
-// import Navbar from './Components/Navbar'
-import { HomePage } from './Pages/HomePage'
+import AllRoutes from "./AllRoutes/AllRoutes";
+import "./App.css";
+import { HomePage } from "./Pages/HomePage";
 
 function App() {
-  
-
   return (
     <>
-      {/* <Navbar/> */}
-      <HomePage/>
+      <AllRoutes />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
